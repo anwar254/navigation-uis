@@ -4,21 +4,27 @@
 }
 
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #e5e5e5;
     height: 100vh
 }
 a{
     color: inherit!important;
 }
+.is-bold{
+    font-weight: bold!important;
+}
 .nav{
-    padding: 15px 0;
+    padding: 7px 0;
 }
 header.navbar-header{
     background: #fff;
 }
+.navbar-top{
+    border-bottom: 1px solid var(--grey);
+}
 .logo{
-    font-weight: bolder;
+    font-weight: 900!important;
     font-size: 19px;
     color: inherit;
 }
@@ -27,9 +33,45 @@ header.navbar-header{
     border-bottom: .5px solid var(--grey);
 }
 .navbar-item{
-    font-weight: 100!important;
+    font-size: 13px;
+    font-weight: lighter!important;
     text-transform: initial!important;
     color: #b1b1b1!important;
+}
+.menu-link{
+    font-size: 14px!important;
+    font-weight: 700!important;
+    color: #000!important;
+    padding: 20px;
+}
+.menu-link:first-child{
+    padding-left: 0!important;
+}
+.menu-link,
+.menu-link:after,
+.menu-link:before {
+  transition: all .5s;
+}
+.menu-link:hover {
+    background: none!important
+}
+.stroke .menu-link{
+    position: relative;
+}
+.stroke .menu-link:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--main-color);
+    height: 3px;
+}
+.menu-link:hover:after {
+    width: 100%;
 }
 .nav-link a:hover{
     color: inherit
@@ -37,7 +79,7 @@ header.navbar-header{
 .acc-title{
     color: inherit!important;
     text-transform: initial;
-    font-size: 14px;
+    font-size: 13px;
 }
 .acc img{
     object-fit: cover;
@@ -46,4 +88,39 @@ header.navbar-header{
     border-radius: 50%;
     margin-left: 10px;
     border: var(--main-color) solid 5px;
+}
+
+.dropdown-container{
+    position: absolute;
+    margin: 16px 0;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    padding: 30px 0;
+    width: 100%;
+}
+.dropdown-container::before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 220px;
+    width: 20px;
+    height: 20px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.menu-link:hover .dropdown-container{
+    display: block;
+}
+
+.dropdown-title{
+    text-transform: initial!important;
+    /* font-size: 13px!important; */
+    margin-bottom: 25px;
+}
+.dropdown-list ul li{
+    font-size: 14px;
+    margin-bottom: 15px;
 }
