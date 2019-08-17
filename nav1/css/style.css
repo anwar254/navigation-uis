@@ -1,0 +1,46 @@
+/* Global variables */
+:root{
+    --color: #3273dc;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+.navbar{
+    padding: 10px 0;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 19px;
+}
+.nav-link a{
+    font-weight: 100;
+    font-size: 14px;
+    color: #b1b1b1
+}
+.nav-link a::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: var(--color);
+    border-radius: 50%;
+    position: relative;
+    right: 6px;
+    visibility: hidden;
+}
+.nav-link a:hover::before{
+    visibility: visible;
+}
+.nav-link a:hover{
+    color: var(--color);
+    background: none;
+}
+.nav-link a:active{
+    color: var(--color);
+    background: none;
+}
+.nav-link a:active::before{
+    visibility: visible;
+}
