@@ -37,10 +37,10 @@ body{
     color: var(--color);
     background: none;
 }
-.nav-link a:active{
+.nav-link a.active{
     color: var(--color);
     background: none;
 }
-.nav-link a:active::before{
+.nav-link a::before.active{
     visibility: visible;
 }
