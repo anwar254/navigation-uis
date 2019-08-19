@@ -146,3 +146,26 @@ header.navbar-header{
 .has-padding-5{
     padding: 30px 0;
 }
+.icon svg{
+    color: #4a4a4a;
+    cursor: pointer;
+}
+.end{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.noti{
+    width: 15px;
+    height: 15px;
+    background: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 98px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
