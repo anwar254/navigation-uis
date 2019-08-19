@@ -1,0 +1,32 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+.nav{
+    padding: 10px 0;
+}
+.logo {
+    width: 180px;
+    color: #fff!important;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.link{
+    color: #fff;
+}
+.desktop-only {
+    display: none !important;
+}
+@media only screen and (min-width: 960px){
+    .desktop-only {
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 960px){
+    .nav-navbar{
+        display: none;
+    }
+}
