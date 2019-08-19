@@ -1,0 +1,40 @@
+:root{
+    --grey: #6b6b6b;
+    --main-color: #3273dc;
+    --darker: #363636;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+a{
+    color: inherit!important;
+}
+.is-bold{
+    font-weight: bold!important;
+}
+.nav{
+    padding: 7px 0;
+}
+header.navbar-header{
+    background: var(--darker);
+}
+.navbar-top{
+    padding: 5px;
+    border-bottom: 1px solid var(--grey);
+    color: #fff;
+}
+.navbar-top .icon .svg{
+    color: inherit;
+}
+.logo{
+    font-weight: 900!important;
+    font-size: 19px;
+    color: inherit;
+}
+.top-nav{
+    width: 100%;
+    border-bottom: .5px solid var(--grey);
+}
