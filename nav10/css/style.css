@@ -1,0 +1,39 @@
+:root{
+    --grey: #ccc8c8;
+    --main-color: #3273dc;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+.nav{
+    padding: 10px 0;
+}
+.logo {
+    width: 180px;
+    color: #4a4a4a!important;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.navbar-item{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.noti{
+    width: 15px;
+    height: 15px;
+    background: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 98px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
