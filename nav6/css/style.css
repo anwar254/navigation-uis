@@ -1,0 +1,23 @@
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.logo:hover{
+    background: none!important;
+}
+.navbar{
+    padding: 10px;
+}
+.navbar .navbar-item{
+    font-size: 14px;
+    padding: 11px 18px!important;
+    margin: 0;
+}
+.navbar-item:hover{
+    background: #BA55D3!important;
+    color: #fff;
+    border-radius: 5px;
+} 
+.navbar .navbar-item svg, .navbar .navbar-item i{
+    color: #fff;
+}
