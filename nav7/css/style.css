@@ -1,0 +1,29 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+.nav{
+    padding: 10px 0;
+}
+.logo {
+    width: 180px;
+    color: #fff!important;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.btn a{
+    color: #fff;
+}
+.btn a.bg-less{
+    background: none;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+}
+.btn a.bg{
+    padding: 0 30px;
+    background: #FF6347;
+    color: #fff;
+}
