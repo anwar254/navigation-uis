@@ -26,6 +26,9 @@ header.navbar-header{
     border-bottom: 1px solid var(--grey);
     color: #fff;
 }
+.navbar-top .icon svg, .navbar-top .icon i{
+    font-size: 16px;
+}
 .navbar-top .icon .svg{
     color: inherit;
 }
@@ -37,4 +40,51 @@ header.navbar-header{
 .top-nav{
     width: 100%;
     border-bottom: .5px solid var(--grey);
+}
+.btn a{
+    border: none;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.btn a.bg-less{
+    background: none;
+    border: none;
+}
+.btn a.bg{
+    padding: 0 30px;
+    background: var(--main-color)
+}
+.navbar-bottom{
+    padding: 15px 0 0 0;
+}
+.navbar-item{
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.navbar-item:hover{
+    background: none!important;
+    border-bottom: 2px solid var(--main-color)
+}
+
+
+
+.switch[type="checkbox"] {
+    outline: 0;
+    user-select: none;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    vertical-align: baseline;
+}
+.switch[type="checkbox"]+label {
+    position: relative;
+    display: initial;
+    font-size: 1rem;
+    line-height: initial;
+    padding-left: 3.5rem;
+    padding-top: .2rem;
+    cursor: pointer;
 }
