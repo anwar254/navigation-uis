@@ -76,6 +76,11 @@ header.navbar-header{
 .nav-link a:hover{
     color: inherit
 }
+.navbar-link:not(.is-arrowless)::after {
+    border-color: none!important;
+    margin-top: -.375em;
+    right: 1.125em;
+}
 .acc-title{
     color: inherit!important;
     text-transform: initial;
@@ -99,7 +104,7 @@ header.navbar-header{
     padding: 30px 0;
     width: 100%;
 }
-.dropdown-container::before{
+.dropdown-menu::before{
     content: '';
     position: absolute;
     top: -20px;
@@ -123,4 +128,21 @@ header.navbar-header{
 .dropdown-list ul li{
     font-size: 14px;
     margin-bottom: 15px;
+}
+.dropdown-full{
+    position: absolute;
+    width: 100vw;
+    left: -77px;
+    top: 73px;
+}
+
+.dropdown-menu {
+    width: 100vw;
+    left: -200px;
+}
+.level{
+    margin-bottom: 0!important;
+}
+.has-padding-5{
+    padding: 30px 0;
 }

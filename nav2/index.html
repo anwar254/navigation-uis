@@ -55,120 +55,149 @@
                 </div>
 
                 <div class="navbar-bottom">
-                    <nav class="navbar is-paddingless">
-                        <div class="navbar-brand">
+                    <nav class="navbar" role="navigation" aria-label="main navigation">
+                        <div class="navbar-brand">                        
                             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                             </a>
                         </div>
-                        <div id="navbarBasicExample" class="navbar-menu stroke">
+                        
+                        <div id="navbarBasicExample" class="navbar-menu">
                             <div class="navbar-start">
-                                <ul class="is-flex center">
-                                    <li class="navbar-item menu-link">
-                                        New Product
-                                        
-                                    </li>
-                                    <li class="navbar-item menu-link">Men</li>
-                                    <li class="navbar-item menu-link">Women</li>
-                                    <li class="navbar-item menu-link">Kinds</li>
-                                    <li class="navbar-item menu-link">New Product</li>
-                                </ul>
+                                <a class="navbar-item menu-link">
+                                New Products
+                                </a>
+                                
+                                <div class="container level">
+                                    <div class="dropdown is-hoverable level-item">
+                                      <div class="dropdown-trigger">
+                                        <a href="" class="navbar-item menu-link">Men</a>
+                                      </div>
+                                      <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                        <div class="dropdown-content">
+                                          <div class="dropdown-item">
+                                            <div class="container has-padding-5">
+                                                <div class="columns">
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">Outerware</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>Coats</li>
+                                                                <li>Jackets</li>
+                                                                <li>Cloaks</li>
+                                                                <li>Winter Jackets</li>
+                                                                <li>Windbreakers</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">Pandts & jeans</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>Classic</li>
+                                                                <li>Sports</li>
+                                                                <li>Jeans</li>
+                                                                <li>Daily</li>
+                                                                <li>Warm</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">Shoes</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>Classic</li>
+                                                                <li>Sports</li>
+                                                                <li>Essentials</li>
+                                                                <li>Eavinings</li>
+                                                                <li>Slippers</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="columns">
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">Jumpers & Cardigans</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>Vest</li>
+                                                                <li>Cardigans</li>
+                                                                <li>Jumpers</li>
+                                                                <li>Sweaters</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">T-shirts & Shirts</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>T-shirts</li>
+                                                                <li>Polo</li>
+                                                                <li>Shirts</li>
+                                                                <li>Undershirts</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column">
+                                                        <div class="heading">
+                                                            <h1 class="title is-6 dropdown-title">Underwares</h1>
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <ul class="is-block">
+                                                                <li>Boxers</li>
+                                                                <li>Briefs</li>
+                                                                <li>Complects</li>
+                                                                <li>Shorts</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <a class="navbar-item menu-link">
+                                    Women
+                                    </a>
+                                    <a class="navbar-item menu-link">
+                                    Kids
+                                    </a>
+                                    <a class="navbar-item menu-link">
+                                    Accessories
+                                    </a>
+                                    <a class="navbar-item menu-link">
+                                    Top Sales
+                                    </a>
+                                </div>
+                        
+                            <div class="navbar-end">
+                                <div class="navbar-item">
+                                    <div class="buttons">
+                                    <a class="button is-primary">
+                                        <strong>Sign up</strong>
+                                    </a>
+                                    <a class="button is-light">
+                                        Log in
+                                    </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </nav>
+                    </nav>                              
                 </div>
-            </div>
-
-            <div class="dropdown-container">
-               <div class="container has-padding-5">
-                    <div class="columns">
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">Outerware</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>Coats</li>
-                                    <li>Jackets</li>
-                                    <li>Cloaks</li>
-                                    <li>Winter Jackets</li>
-                                    <li>Windbreakers</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">Pandts & jeans</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>Classic</li>
-                                    <li>Sports</li>
-                                    <li>Jeans</li>
-                                    <li>Daily</li>
-                                    <li>Warm</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">Shoes</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>Classic</li>
-                                    <li>Sports</li>
-                                    <li>Essentials</li>
-                                    <li>Eavinings</li>
-                                    <li>Slippers</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">Jumpers & Cardigans</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>Vest</li>
-                                    <li>Cardigans</li>
-                                    <li>Jumpers</li>
-                                    <li>Sweaters</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">T-shirts & Shirts</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>T-shirts</li>
-                                    <li>Polo</li>
-                                    <li>Shirts</li>
-                                    <li>Undershirts</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="heading">
-                                <h1 class="title is-6 dropdown-title">Underwares</h1>
-                            </div>
-                            <div class="dropdown-list">
-                                <ul class="is-block">
-                                    <li>Boxers</li>
-                                    <li>Briefs</li>
-                                    <li>Complects</li>
-                                    <li>Shorts</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-               </div>
             </div>
         </header>
     </div>
