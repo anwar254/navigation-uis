@@ -54,6 +54,18 @@ body{
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
 }
+.menu.dark:before{
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: -16px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 10px solid #363636;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
 .no-radius{
     border-radius: 0;
     border: none;
@@ -72,4 +84,20 @@ body{
     position: absolute;
     right: 0px;
     top: 6px;
+}
+
+.noti{
+    width: 20px;
+    height: 20px;
+    background: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 51px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    font-size: 10px;
 }
