@@ -24,6 +24,26 @@ body{
 .dropdown-content{
     padding: 11px 13px;
 }
+/* .dropdown-item{
+    padding: 13px 7px;
+} */
+.dropdown-item svg, .dropdown-item i{
+    color: var(--main-color)
+}
+.dot::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 83px;
+    top: 14px;
+}
+.is-bgless{
+    background: transparent!important;
+    color: var(--main-color)!important
+}
 .acc-title{
     color: inherit!important;
     text-transform: initial;
@@ -83,7 +103,10 @@ body{
     font-size: 10px;
     position: absolute;
     right: 0px;
-    top: 6px;
+    top: 14px;
+}
+.square{
+    border-radius: 0!important;
 }
 
 .noti{
