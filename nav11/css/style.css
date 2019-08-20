@@ -1,0 +1,67 @@
+:root{
+    --grey: #6b6b6b;
+    --main-color: #3273dc;
+    --darker: #363636;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e5e5;
+    height: 100vh
+}
+a{
+    color: inherit!important;
+}
+.is-bold{
+    font-weight: bold!important;
+}
+.nav{
+    padding: 7px 0;
+}
+header.navbar-header{
+    background: var(--darker);
+}
+.navbar-top{
+    padding: 5px;
+    border-bottom: 1px solid var(--grey);
+    color: #fff;
+}
+.navbar-top .icon svg, .navbar-top .icon i{
+    font-size: 16px;
+}
+.navbar-top .icon .svg{
+    color: inherit;
+}
+.logo{
+    font-weight: 900!important;
+    font-size: 19px;
+    color: inherit;
+}
+.top-nav{
+    width: 100%;
+    border-bottom: .5px solid var(--grey);
+}
+.btn a{
+    border: none;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.btn a.bg-less{
+    background: none;
+    border: none;
+}
+.btn a.bg{
+    padding: 0 30px;
+    background: var(--main-color)
+}
+.navbar-bottom{
+    padding: 15px 0 0 0;
+}
+.navbar-item{
+    font-weight: 700;
+    font-size: 12px;
+    padding: 15px;
+}
+.navbar-item .icon svg, .navbar-item .icon i{
+    color: #fff;
+}
